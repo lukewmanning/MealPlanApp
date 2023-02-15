@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dietary_info"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"/>
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"
+        android:text="@string/choose_goals"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loseWeightButton"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:layout_marginEnd="6dp"
+            android:text="@string/lose_weight" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gainWeightButton"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:layout_marginEnd="6dp"
+            android:text="@string/gain_weight" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/healthButton"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:text="@string/general_wellbeing"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"
+        android:text="@string/liked_foods"/>
+
+    <EditText
+        android:id="@+id/addLiked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter here" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirmLiked"
+        android:text="@string/add"
+        android:backgroundTint="@color/green"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/foods_liked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"
+        android:text="@string/disliked_foods"/>
+
+    <EditText
+        android:id="@+id/addDisliked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter here" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirmDisliked"
+        android:text="add"
+        android:backgroundTint="@color/green"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/foods_disliked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"
+        android:text="@string/allergies"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ext"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/addAllergic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enterhere" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirmAllergic"
+        android:text="add"
+        android:backgroundTint="@color/green"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/allergic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/continueButton"
+        android:layout_marginTop="20dp"
+        android:text="@string/continue_btn"
+        android:backgroundTint="@color/green"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

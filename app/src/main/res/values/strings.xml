@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MealPlanApplication</string>
+    <string name="create_acc">Login / Sign Up</string>
+    <string name="acc_details">Enter account details</string>
+    <string name="enter_email">Email:</string>
+    <string name="enter_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="register_details">Personal Information</string>
+    <string name="enter_age">Age</string>
+    <string name="enter_name">Name</string>
+    <string name="enter_gender">Gender</string>
+    <string name="enter_here">Enter..</string>
+    <string name="enter_weight">Weight (kg)</string>
+    <string name="enter_height">Height (cm)</string>
+    <string name="continue_btn">Continue</string>
+    <string name="dietary_info">Dietary Information</string>
+    <string name="choose_goals">Choose goal(s) from list below</string>
+    <string name="lose_weight">Lose weight</string>
+    <string name="gain_weight">Gain Weight</string>
+    <string name="general_wellbeing">Health</string>
+    <string name="liked_foods">What foods do you like</string>
+    <string name="disliked_foods">What foods do you dislike</string>
+    <string name="allergies">What allergies do you have</string>
+    <string name="ext">Leave blank if none</string>
+    <string name="registerLoggedIn">Already logged in!</string>
+    <string name="regErr">Error while trying to register!</string>
+    <string name="logErr">Error while trying to login!</string>
+    <string name="notLoggedIn">Not logged in</string>
+    <string name="loggedIn">Already logged in</string>
+    <string name="enterhere">Enter here</string>
+    <string name="add">add</string>
+    <string-array name="tabTitles">
+        <item>Meal Plan</item>
+        <item>Weight Tracker</item>
+    </string-array>
+</resources>

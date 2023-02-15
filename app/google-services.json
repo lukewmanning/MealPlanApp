@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "947753259132",
+    "project_id": "mealplanapplication",
+    "storage_bucket": "mealplanapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947753259132:android:0bea35c10cadaf665af9f9",
+        "android_client_info": {
+          "package_name": "com.example.mealplanapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947753259132-suh6sdq7nsq5gpj4jg6olciga7ifanei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdoZyQ12gHLQtfq0m0aH9Qfu6zmz48xNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947753259132-suh6sdq7nsq5gpj4jg6olciga7ifanei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

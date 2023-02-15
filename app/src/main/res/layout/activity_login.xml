@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="@string/create_acc"
+            android:textColor="@color/white" />
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:layout_gravity="center"
+        android:text="@string/acc_details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:paddingTop="32dp"
+        android:hint="@string/enter_email"
+        android:id="@+id/enterEmail" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:paddingTop="32dp"
+        android:hint="@string/enter_password"
+        android:id="@+id/enterPassword" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:text="@string/login_button"
+            android:id="@+id/loginButton"
+            android:backgroundTint="@color/green"
+            android:layout_marginRight="32dp"
+            app:shapeAppearance="@style/ShapeAppearanceOverlay.Material3.Button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:text="@string/register_button"
+            android:id="@+id/registerButton"
+            android:backgroundTint="@color/green"
+            app:shapeAppearance="@style/ShapeAppearanceOverlay.Material3.Button" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeView"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
